@@ -39,7 +39,7 @@ body = f'''
 Hello,                                                                                                   
                                                                                                          
 Today the forecast is supposed to be {forecast}, with a minimum temperature of {min_temp}°F              
-and a maximum temperature of {max_temp}°F. The sun will set at {sunset} too.                        
+and a maximum temperature of {max_temp}°F.  The sun will set at {sunset} too.                        
                                                                                                                                                                                                                   
 Best,                                                                                                    
 Your favorite python-based weatherman                                                                    
