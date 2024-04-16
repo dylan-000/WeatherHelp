@@ -1,6 +1,7 @@
 import requests
 from dotenv import load_dotenv
 import os
+import schedule
 
 load_dotenv()  # load .env variables
 
@@ -13,3 +14,4 @@ weather_data = requests.get(URL).json()
 
 if __name__ == '__main__':
     print(weather_data)
+
