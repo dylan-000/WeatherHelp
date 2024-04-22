@@ -7,8 +7,7 @@ import ssl
 from email.message import EmailMessage
 import google.generativeai as genai
 
-
-
+# Load environment variables
 load_dotenv()
 
 # Store important data
