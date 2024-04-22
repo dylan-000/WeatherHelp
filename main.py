@@ -29,10 +29,10 @@ model = genai.GenerativeModel('gemini-pro')
 response = model.generate_content(f"""
 Please generate a message giving a detailed summary of the weather forecast given the following .JSON data:
 {weather_data}
+insert a new line after every sentence.
 """)
 
 message = response.text
-
 # Email details
 sender_email = os.getenv('FROM')
 receiver_email = os.getenv('TO')
