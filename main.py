@@ -17,7 +17,7 @@ city = os.getenv('CITY')
 params = {'q': city, 'appid': weather_key, 'units': 'imperial'}
 url = 'http://api.openweathermap.org/data/2.5/weather'
 
-# Call weather API and configure Gemini
+# Call weather API and configure Google Gemini
 weather_data = requests.get(url, params=params).json()
 genai.configure(api_key=google_key)
 model = genai.GenerativeModel('gemini-pro')
